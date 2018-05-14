@@ -1,0 +1,139 @@
+{
+	"LanguageName" : "Français",
+
+	"Dictionaries" : {
+		"Main" : {
+			"title" : "Mutli Outil"
+		},
+
+		"MenuBar" : {
+			"file" : "Fichier",
+			"edit" : "Éditer",
+				"undo" : "Annuler",
+
+
+			"unit" : "Unité",
+				"distance" : "Distance",
+					"meter" : "Mètre",
+					"foot" : "Pied",
+
+				"weight" : "Poid",
+					"kilogram" : "Kilogram",
+					"pound" : "Livre",
+
+				"temperature" : "Température",
+					"celsius" : "Celsius",
+					"fahrenheit" : "Fahrenheit",
+					"kelvin" : "Kelvin",
+
+			"language" : "Langage"
+		},
+
+		"LoanCalculator" : {
+			"name" : "Calculateur de pret",
+
+			"title" : "Calculateur de pret",
+			"loan" : "Montant du prêt :",
+			"interest" : "<html><p style=\"text-align: right;\">Taux d'intérêt<br>annuel (%) :</p>",
+			"term" : "Période :",
+			"termSingleYear" : "1 an (12 mois)",
+			"termMultiYear" : "%d ans (%d mois)",
+			"payment" : "<html><p style=\"text-align: right;\">Montant du paiement<br>mensuel :</p>",
+			"cost" : "<html><p style=\"text-align: right;\">Coût total d'emprunt :</p>",
+			"calculate" : "Calculer",
+
+			"err.loan" : "Erreur: Le montant du pret doit etre superieur a 0.",
+			"err.interestSup100" : "Erreur: L'interet ne peut être égale ou inferieur à 0.",
+			"err.interestLower0" : "Erreur: L'interet ne peut pas être superieur a 100 %.",
+			"err.invalidNum" : "Erreur: Vous devez entrer un nombre.",
+			"err.numLower0" : "Erreur: Vous devez entrer un nombre superieur a 0."
+		},
+
+		"BMI" : {
+			"name" : "IMC",
+
+			"title" : "Indice de Masse Corporelle",
+			"weight" : "Poids (Kg) :",
+			"height" : "Taille (cm) :",
+			"bmi" : "IMC :",
+			"calc.bmi" : "Calculer le IMC",
+			"calc.height" : "Calculer la taille",
+			"calc.weight" : "Calculer le poids",
+			"calculate" : "Calculer",
+
+			"tip.bmi" : "Calculez le IMC avec le poids et la taille.",
+			"tip.weight" : "Calculez le poids avec le IMC et la taille.",
+			"tip.height" : "Calculez la taille avec le poids et le IMC.",
+
+			"error.numbInf0" : "Erreur: Vous devez entrer un nombre superieur a 0.",
+			"error.invalidNumber" : "Erreur: Vous devez entrer un nombre."
+		},
+
+		"Todo" : {
+			"name" : "À Faire",
+
+			"title" : "À Faire",
+			"add" : "Ajouter"
+		},
+
+		"TempDiagnostic" : {
+			"name" : "Diagnostique de température",
+
+			"title" : "Diagnostique de Température",
+			"temperature" : "Température :",
+			"tip" : "Entrez votre température interne.",
+			"result" : "Résultat :",
+			"example" : "ex: 37",
+			"calculate" : "Calculer",
+
+			"alert" : "ALERTE! VOUS DEVEZ ALLER A L'HOPITAL!!",
+
+			"result.1" : "Prendre l'air.",
+			"result.2" : "Se reposer.",
+			"result.3" : "Prendre de l'aspirine et de l'eau.",
+			"result.4" : "Aller à l'hopital."
+		},
+
+		"CommissionCalculator" : {
+			"name" : "Calculateur de commision",
+
+			"title" : "Calculateur des Commisions",
+
+			"warning" : "Attention! Vous étes renvoyez!",
+			"sales" : "Total des ventes :",
+			"rate" : "Taux :",
+			"commission" : "Commission :",
+			"tip" : "Calculer la commission selon le total des ventes",
+			"calculate" : "Calculer",
+
+			"error.invalidNumber" : "Erreur : Vous devez entrer un nombre."
+		},
+
+		"WhatToWear" : {
+			"name" : "Quoi porter",
+
+			"title" : "Quoi porter aujourd'hui?",
+			"temperature" : "Température",
+
+			"result.1" : "Attache ta tuque!",
+			"result.2" : "Manteau d'hiver",
+			"result.3" : "Manteau de printemps",
+			"result.4" : "Vêtement longs",
+			"result.5" : "Vêtement légers",
+			"result.6" : "Maillot de bain"
+		},
+
+		"BlackHoleGenerator" : {
+			"name" : "Générateur de trou noir",
+
+			"title" : "Générateur de Trou Noir",
+			"wip" : "WIP"
+		},
+
+		"LuaEditor" : {
+			"name" : "Éditeur de Lua",
+
+			"title" : "Éditeur de Lua"
+		}
+	}
+}

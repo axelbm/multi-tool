@@ -1,0 +1,139 @@
+{
+	"LanguageName" : "English",
+
+	"Dictionaries" : {
+		"Main" : {
+			"title" : "Mutli Tool"
+		},
+
+		"MenuBar" : {
+			"file" : "File",
+			"edit" : "Edit",
+				"undo" : "Undo",
+
+
+			"unit" : "Unit",
+				"distance" : "Distance",
+					"meter" : "Meter",
+					"foot" : "Foot",
+
+				"weight" : "Weight",
+					"kilogram" : "Kilogram",
+					"pound" : "Pound",
+
+				"temperature" : "Temprerature",
+					"celsius" : "Celsius",
+					"fahrenheit" : "Fahrenheit",
+					"kelvin" : "Kelvin",
+
+			"language" : "Language"
+		},
+
+		"LoanCalculator" : {
+			"name" : "Loan Calculator",
+
+			"title" : "Loan Calculator",
+			"loan" : "Loan Amount :",
+			"interest" : "Annual Interest Rate :",
+			"term" : "Term :",
+			"termSingleYear" : "1 year (12 month)",
+			"termMultiYear" : "%d years (%d month)",
+			"payment" : "<html><p style=\"text-align: right;\">Monthly Payment<br>Amount :</p>",
+			"cost" : "Total Borrowing Cost :",
+			"calculate" : "Calculate",
+
+			"err.loan" : "ERROR: Le montant du pret doit etre superieur a 0.",
+			"err.interestSup100" : "ERROR: L'interet ne peut �tre egale ou inferieur � 0.",
+			"err.interestLower0" : "ERROR: L'interet ne peut pas �tre superieur a 100 %.",
+			"err.invalidNum" : "ERROR: Vous devez entrer un nombre.",
+			"err.numLower0" : "ERROR: Vous devez entrer un nombre superieur a 0."
+		},
+
+		"BMI" : {
+			"name" : "BMI",
+
+			"title" : "Body Mass Index",
+			"weight" : "Weight (Kg) :",
+			"height" : "Height (cm) :",
+			"bmi" : "BMI :",
+			"calc.bmi" : "Calculate the BMI",
+			"calc.height" : "Calculate the height",
+			"calc.weight" : "Calculate the weight",
+			"calculate" : "Calculate",
+
+			"tip.bmi" : "Calculate the BMI with the weight and the height.",
+			"tip.weight" : "Calculate the weight with the BMI and the height.",
+			"tip.height" : "Calculate the height with the weight and the BMI.",
+
+			"error.numbInf0" : "Error: You have to enter a number heigher than 0.",
+			"error.invalidNumber" : "Error: You have to enter a number."
+		},
+
+		"Todo" : {
+			"name" : "Todo",
+
+			"title" : "To do",
+			"add" : "Add"
+		},
+
+		"TempDiagnostic" : {
+			"name" : "Temperature diagnosis",
+
+			"title" : "Temperature Diagnosis",
+			"temperature" : "Temperature :",
+			"tip" : "Enter you internal temperature.",
+			"result" : "Result :",
+			"example" : "ex: 37",
+			"calculate" : "Calculate",
+
+			"alert" : "ALERT! YOU HAVE TO GO TO THE HOSPITAL!!",
+
+			"result.1" : "Take some fresh air.",
+			"result.2" : "Rest.",
+			"result.3" : "Take aspirin and water.",
+			"result.4" : "Go to the hospital."
+		},
+
+		"CommissionCalculator" : {
+			"name" : "Commision Calculator",
+
+			"title" : "Commision Calculator",
+
+			"warning" : "Warning! You are fired!",
+			"sales" : "Total sales :",
+			"rate" : "Rate :",
+			"commission" : "Commission :",
+			"tip" : "Calculate commission based on total sales",
+			"calculate" : "Calculate",
+
+			"error.invalidNumber" : "Error : You have to enter a number."
+		},
+
+		"WhatToWear" : {
+			"name" : "What to wear",
+
+			"title" : "What to wear today?",
+			"temperature" : "Temperature",
+
+			"result.1" : "Tie your tuque!",
+			"result.2" : "Winter coat",
+			"result.3" : "Spring coat",
+			"result.4" : "Long clothing",
+			"result.5" : "Light clothing",
+			"result.6" : "Swimsuit"
+		},
+
+		"BlackHoleGenerator" : {
+			"name" : "Black hole generator",
+
+			"title" : "Black hole generator",
+			"wip" : "WIP"
+		},
+
+		"LuaEditor" : {
+			"name" : "Lua Editor",
+
+			"title" : "Lua Editor"
+		}
+	}
+}
